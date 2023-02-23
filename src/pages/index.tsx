@@ -10,7 +10,7 @@ const Home: NextPageWithLayout = () => {
     <>
       <Head
         title="Home"
-        description="Shop all available models only at the Hennies. Worldwide Shipping. Secure Payment."
+        description="The Real Hennie's - Beste kuier in Suid Afrika!"
       />
       <Hero />
       <FeaturedProducts />
