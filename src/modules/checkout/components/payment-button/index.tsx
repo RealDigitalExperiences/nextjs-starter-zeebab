@@ -49,6 +49,8 @@ const PaymentButton: React.FC<PaymentButtonProps> = ({ paymentSession }) => {
       )
     case "manual":
       return <ManualTestPaymentButton notReady={notReady} />
+    case "Xero":
+      return <ManualTestPaymentButton notReady={notReady} />
     case "paypal":
       return (
         <PayPalPaymentButton notReady={notReady} session={paymentSession} />

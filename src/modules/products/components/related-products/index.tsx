@@ -50,7 +50,7 @@ const RelatedProducts = ({ product }: RelatedProductsProps) => {
 
   return (
     <div className="product-page-constraint">
-      <div className="flex flex-col items-center text-center mb-16">
+      {/* <div className="flex flex-col items-center text-center mb-16">
         <span className="text-base-regular text-gray-600 mb-6">
           Related products
         </span>
@@ -89,7 +89,7 @@ const RelatedProducts = ({ product }: RelatedProductsProps) => {
             Load more
           </Button>
         </div>
-      )}
+      )} */}
     </div>
   )
 }

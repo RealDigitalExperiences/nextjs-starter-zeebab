@@ -17,6 +17,10 @@ const PaymentInfoMap: Record<string, { title: string; description: string }> = {
     title: "Credit card",
     description: "Secure payment with credit card",
   },
+  Xero: {
+    title: "Hennie`s Account",
+    description: " Your Hennie`s Account",
+  },
   "stripe-ideal": {
     title: "iDEAL",
     description: "Secure payment with iDEAL",
